@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d92ddac-f902-4469-8de1-a1c8777997d2" name="Default" comment="" />
+    <list default="true" id="9d92ddac-f902-4469-8de1-a1c8777997d2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/omniauth-mixi.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/example.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omniauth-mixi.gemspec" afterPath="$PROJECT_DIR$/omniauth-mixi.gemspec" />
+    </list>
     <ignored path="omniauth-mixi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,33 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mixi_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/omniauth/strategies/mixi_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/rspec-core-2.6.4/lib/rspec/core/subject.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/config.ru">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,10 +67,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixi.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mixi.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.027534418">
+            <state line="1" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="omniauth-mixi.gemspec" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/omniauth-mixi.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="59" selection-start="663" selection-end="663" vertical-scroll-proportion="0.29187396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,12 +192,13 @@
         <option value="$PROJECT_DIR$/example/Gemfile" />
         <option value="$PROJECT_DIR$/lib/omniauth-mixi.rb" />
         <option value="$PROJECT_DIR$/lib/omniauth/mixi.rb" />
-        <option value="$PROJECT_DIR$/lib/omniauth/mixi/version.rb" />
-        <option value="$PROJECT_DIR$/omniauth-mixi.gemspec" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/example/config.ru" />
         <option value="$PROJECT_DIR$/spec/omniauth/strategies/mixi_spec.rb" />
         <option value="$PROJECT_DIR$/lib/omniauth/strategies/mixi.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/lib/omniauth/mixi/version.rb" />
+        <option value="$PROJECT_DIR$/omniauth-mixi.gemspec" />
       </list>
     </option>
   </component>
@@ -210,7 +228,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -565,7 +583,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -693,16 +711,16 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704453" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32955465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -752,114 +770,90 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/access_token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/multi_json-1.0.3/lib/multi_json.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="7" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/omniauth-1.0.0.pr2/lib/omniauth/strategy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="28" selection-start="10967" selection-end="10980" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/auth_code.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/rspec-core-2.6.4/lib/rspec/core/subject.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="14" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="18" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/omniauth/strategies/mixi_spec.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/multi_json-1.0.3/lib/multi_json.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+        <state line="54" column="7" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/omniauth-mixi.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/omniauth/strategies/mixi.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+        <state line="23" column="7" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/omniauth-1.0.0.pr2/lib/omniauth/strategy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="336" column="28" selection-start="10967" selection-end="10980" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/auth_code.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/strategy/password.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/access_token.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@omniauth-mixi/gems/oauth2-0.5.1/lib/oauth2/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/omniauth-mixi.rb">
+    <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/omniauth/mixi.rb">
+    <entry file="file://$PROJECT_DIR$/omniauth-mixi.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.027534418">
+        <state line="16" column="59" selection-start="663" selection-end="663" vertical-scroll-proportion="0.29187396">
           <folding />
         </state>
       </provider>
