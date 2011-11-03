@@ -6,7 +6,8 @@ module OmniAuth
       option :client_options, {
         :site => 'https://secure.mixi-platform.com',
         :authorize_url => 'https://mixi.jp/connect_authorize.pl',
-        :token_url => 'https://secure.mixi-platform.com/2/token'
+        :token_url => 'https://secure.mixi-platform.com/2/token',
+        :ssl => {:ca_path => "/etc/ssl/certs"}
       }
 
       option :authorize_params, {
@@ -16,11 +17,29 @@ module OmniAuth
       }
 
       option :token_params, {
-        :parse => :json
+        :parse => :json,
+        :mode => :query,
+        :param_name => 'oauth_token',
+        :header_format => "OAuth %s"
       }
 
-      option :callback_path, '/mixi_tabs/publishing'
+      uid { raw_info['entry']['id']}
 
+      info do
+        {
+        :name => raw_info['entry']['displayName']
+        }
+      end
+
+      def callback_phase
+        options[:grant_type] ||= 'client_credentials'
+        super
+      end
+
+      def raw_info
+        @raw_info ||= MultiJson.decode(access_token.get("/2/people/@me/@self?oauth_token=#{access_token.token}").body)
+        @raw_info
+      end
     end
   end
 end

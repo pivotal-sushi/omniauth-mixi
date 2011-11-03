@@ -30,7 +30,7 @@ describe OmniAuth::Strategies::Mixi do
 
   describe '#callback_path' do
     it "has the correct callback path" do
-      subject.callback_path.should eq('/mixi_tabs/publishing')
+      subject.callback_path.should eq('/auth/mixi/callback')
     end
   end
   describe '#authorize_params' do
