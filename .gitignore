@@ -6,3 +6,4 @@ pkg/*
 .powenv
 tmp
 /.idea
+example/.idea
