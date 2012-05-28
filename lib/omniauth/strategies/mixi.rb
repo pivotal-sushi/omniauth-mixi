@@ -27,7 +27,8 @@ module OmniAuth
 
       info do
         {
-        :name => raw_info['entry']['displayName']
+        :name  => raw_info['entry']['displayName'],
+        :image => raw_info['entry']['thumbnailUrl']
         }
       end
 
