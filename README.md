@@ -1,13 +1,13 @@
-# OmniAuth Facebook &nbsp;[![Build Status](http://travis-ci.org/mkdynamic/omniauth-facebook.png?branch=master)](http://travis-ci.org/mkdynamic/omniauth-facebook)
+# OmniAuth mixi &nbsp;[![Build Status](http://travis-ci.org/mkdynamic/omniauth-facebook.png?branch=master)](http://travis-ci.org/mkdynamic/omniauth-facebook)
 
 **Note:** This gem is designed to work with the unreleased OmniAuth 1.0 library. It will not be officially released on RubyGems.org until OmniAuth 1.0 is released.
 
-This gem contains the Facebook strategy for OmniAuth.
+This gem contains the mixi strategy for OmniAuth.
 
 ## Supported Flows
 
-Supports the Server-side Flow as described in the the Facebook docs:
-http://developers.facebook.com/docs/authentication
+Supports the Server-side Flow as described in the the mixi docs:
+http://developer.mixi.co.jp/connect/mixi_graph_api/api_auth/
 
 **Pending:** Supports the Client-side Flow via parsing out the verification code from the signed request cookie.
 
