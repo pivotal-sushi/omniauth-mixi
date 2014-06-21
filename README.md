@@ -1,4 +1,4 @@
-# OmniAuth mixi &nbsp;[![Build Status](http://travis-ci.org/mkdynamic/omniauth-facebook.png?branch=master)](http://travis-ci.org/mkdynamic/omniauth-facebook)
+# OmniAuth mixi &nbsp;[![Build Status](http://travis-ci.org/cutmail/omniauth-mixi.png?branch=master)](http://travis-ci.org/cutmail/omniauth-mixi)
 
 **Note:** This gem is designed to work with the unreleased OmniAuth 1.0 library. It will not be officially released on RubyGems.org until OmniAuth 1.0 is released.
 
